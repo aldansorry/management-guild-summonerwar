@@ -20,19 +20,9 @@
   <ul class="sidebar-menu" data-widget="tree">
     <li class="header">MAIN</li>
     <li class=""><a href="#"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
-    <li class="treeview">
-      <a href="#"><i class="fa fa-link"></i> <span>Kerjasama</span>
-        <span class="pull-right-container">
-          <i class="fa fa-angle-left pull-right"></i>
-        </span>
-      </a>
-      <ul class="treeview-menu">
-        <li><a href="<?php echo base_url('Main/CreateCoop') ?>">Tambah Kerjasama</a></li>
-        <li><a href="<?php echo base_url('Main/Coop') ?>">Daftar Kerjasama</a></li>
-      </ul>
-    </li>
+    <li class=""><a href="<?php echo base_url('Main/Member') ?>"><i class="fa fa-user"></i> <span>Member</span></a></li>
+    <li class=""><a href="<?php echo base_url('Main/GuildWar') ?>"><i class="fa fa-anchor"></i> <span>Guild War</span></a></li>
     <li class="header">Management</li>
-    <li class=""><a href="<?php echo base_url('Management/User') ?>"><i class="fa fa-user"></i> <span>Pengguna</span></a></li>
-    <li class=""><a href="<?php echo base_url('Management/CoopType') ?>"><i class="fa fa-user"></i> <span>Jenis Kerjasama</span></a></li>
+    <li class=""><a href="<?php echo base_url('Management/User') ?>"><i class="fa fa-users"></i> <span>Pengguna</span></a></li>
   </ul>
 </section>
